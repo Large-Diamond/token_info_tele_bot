@@ -10,7 +10,6 @@ if (!token) {
 
 const bot = new TelegramBot(token, { polling: true });
 
-// Tracked symbols and CoinGecko IDs
 const TRACKED_SYMBOLS = ['BTC', 'ETH', 'SOL', 'USDC', 'USDT', 'RAY'];
 const COINGECKO_IDS = ['bitcoin', 'ethereum', 'solana', 'usd-coin', 'tether', 'raydium'];
 
